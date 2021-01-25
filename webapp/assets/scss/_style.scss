@@ -1,0 +1,27 @@
+.pet-app {
+
+  .page {
+    width: 100%;
+    padding: 40px 80px;
+    background-color: #FFFFFF;
+  }
+
+  .align- {
+    &center {
+      margin: auto;
+      &-text {
+        text-align: center;
+      }
+    }
+    &left {
+      &-text {
+        text-align: left;
+      }
+    }
+    &right {
+      &-text {
+        text-align: right;
+      }
+    }
+  }
+}

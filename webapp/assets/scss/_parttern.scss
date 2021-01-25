@@ -1,0 +1,41 @@
+.pet-app{
+  .pet-{
+    &primary {
+      background-color: $primary;
+      &--text {
+        color: $primary;
+      }
+    }
+    &text {
+      &-h1 {
+        font-size: $heading-1 !important;
+      }
+  
+      &-h2 {
+        font-size: $heading-2 !important;
+      }
+  
+      &-h3 {
+        font-size: $heading-3 !important;
+      }
+  
+      &-h4 {
+        font-size: $heading-4 !important;
+      }
+  
+      &-h5 {
+        font-size: $heading-5 !important;
+      }
+  
+      &-h6 {
+        font-size: $heading-6 !important;
+      }
+      &-h7 {
+        font-size: $heading-7 !important;
+      }
+      &-h8 {
+        font-size: $heading-8 !important;
+      }
+    }
+  }
+}
